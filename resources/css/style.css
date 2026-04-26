@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f4f6;
+}
+
+/* Sidebar */
+aside {
+    background: #111827;
+    color: white;
+}
+
+/* Sidebar links */
+aside a {
+    display: block;
+    padding: 10px;
+    border-radius: 6px;
+    color: #d1d5db;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+aside a:hover {
+    background: #374151;
+    color: white;
+}
+
+/* Main content card */
+main .bg-white {
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+/* Buttons */
+button, .btn {
+    background: #2563eb;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover, .btn:hover {
+    background: #1d4ed8;
+}
+
+/* Danger button */
+.btn-danger {
+    background: #dc2626;
+}
+
+.btn-danger:hover {
+    background: #b91c1c;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th {
+    background: #f3f4f6;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+
+table td {
+    padding: 12px;
+    border-top: 1px solid #e5e7eb;
+}
+
+table tr:hover {
+    background: #f9fafb;
+}
+
+/* Inputs */
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    outline: none;
+}
+
+input:focus, select:focus {
+    border-color: #2563eb;
+}
