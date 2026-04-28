@@ -5,7 +5,7 @@
 @section('content')
 
 <style>
-    /* Professional Layout para sa Dashboard */
+    
     .dashboard-container {
         padding: 20px;
     }
@@ -22,7 +22,7 @@
         padding: 25px;
         border-radius: 12px;
         box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-        border-left: 6px solid #4d4728; /* Consistent color sa imong theme */
+        border-left: 6px solid #4d4728; 
         transition: transform 0.2s;
     }
 
@@ -54,7 +54,7 @@
 
 <div class="dashboard-container">
     <div class="welcome-msg">
-        <h2 style="margin:0; color: #1e293b;">Hi mga walang bitaw!</h2>
+        <h2 style="margin:0; color: #1e293b;"></h2>
         <p style="color: #64748b;"></p>
     </div>
 
