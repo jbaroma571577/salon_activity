@@ -8,9 +8,7 @@ use Illuminate\Http\Request;
 
 class PaymentController extends Controller
 {
-    /**
-     * Display payment list
-     */
+    
     public function index()
     {
         $payments = Payment::with('appointment.service')->latest()->get();
@@ -18,9 +16,6 @@ class PaymentController extends Controller
         return view('payments.index', compact('payments'));
     }
 
-    /**
-     * Show create payment form
-     */
     public function create()
     {
         $appointments = Appointment::with('service')->get();
@@ -28,9 +23,7 @@ class PaymentController extends Controller
         return view('payments.create', compact('appointments'));
     }
 
-    /**
-     * Store new payment
-     */
+   
     public function store(Request $request)
     {
         $request->validate([
